@@ -107,7 +107,7 @@ const Navbar = () => {
                 <span className="block h-0.5 bg-orange-500 absolute bottom-[-5px] left-0 right-0 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
               </li>
             ))}
-            {/* Resume Button */}
+          
             <li>
               <a
                 href="/path/to/your/resume.pdf" // Replace with your resume link
