@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 
 import student from "../assets/images/Student.png";
 import Type from "./Type";
-
+import programmer from "../assets/images/programmer.png";
 
 const socialMediaLinks = [
   "https://www.instagram.com/venkatesh__somepalli?utm_source=qr&igsh=ZjUyam5jdGM5aTFm ",
@@ -62,7 +62,7 @@ const Hero = () => {
       </div>
       <div ref={contactRef}></div>
        <div className="flex-1 flex items-center justify-center h-full">
-        <img src={student} alt="" className="md:w-2/3 h-auto object-cover" />
+        <img src={programmer} alt="" className="md:w-2/3 h-auto object-cover" />
       </div>
       
     </section>
