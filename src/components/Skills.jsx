@@ -12,6 +12,7 @@ import {
   SiGit,
   SiMongodb,
   SiC,
+  SiRedux
 } from "react-icons/si";
 import { MdCode } from "react-icons/md";
 import { FaJava } from "react-icons/fa";
@@ -24,6 +25,7 @@ const Skills = () => {
     { name: "CSS", logo: <SiCss3 />, color: "#1572B6" },
     { name: "JavaScript", logo: <SiJavascript />, color: "#F7DF1E" },
     { name: "React", logo: <SiReact />, color: "#61DAFB" },
+    { name: "Redux Toolkit", logo: <SiRedux />, color: "#764ABC" },
     { name: "Express JS", logo: <SiExpress />, color: "#110011" },
     { name: "GitHub", logo: <SiGithub />, color: "#181717" },
     { name: "Node JS", logo: <SiNodedotjs />, color: "#339933" },
